@@ -22,7 +22,6 @@
 <body>
 <div id="boot">読み込み中… Loading…</div>
 <div id="root"></div>
-
 <script>
 /**
  * @license React
@@ -352,7 +351,7 @@ const S = (id, cat, emoji, en, ja, jaR, yue, yueR, zh, zhP) => ({
   zh,
   zhP
 });
-const DATA = [S("g1", "greet", "👋", "Hello", "こんにちは", "konnichiwa", "你好", "nei5 hou2", "你好", "nǐ hǎo"), S("g2", "greet", "🌅", "Good morning", "おはよう", "ohayou", "早晨", "zou2 san4", "早上好", "zǎo shang hǎo"), S("g3", "greet", "👋", "Bye bye", "バイバイ", "baibai", "拜拜", "baai1 baai3", "再见", "zài jiàn"), S("g4", "greet", "📅", "See you tomorrow", "またあした", "mata ashita", "聽日見", "ting1 jat6 gin3", "明天见", "míng tiān jiàn"), S("g5", "greet", "🌙", "Good night", "おやすみ", "oyasumi", "晚安", "maan5 on1", "晚安", "wǎn ān"), S("g6", "greet", "🙏", "Thank you", "ありがとう", "arigatou", "多謝", "do1 ze6", "谢谢", "xiè xie"), S("g7", "greet", "😊", "You're welcome", "どういたしまして", "douitashimashite", "唔使客氣", "m4 sai2 haak3 hei3", "不客气", "bú kè qi"), S("g8", "greet", "😔", "I'm sorry", "ごめんなさい", "gomen nasai", "對唔住", "deoi3 m4 zyu6", "对不起", "duì bu qǐ"), S("g9", "greet", "🙋", "Excuse me", "すみません", "sumimasen", "唔該", "m4 goi1", "请问", "qǐng wèn"), S("g10", "greet", "🤗", "Welcome back", "おかえり", "okaeri", "番嚟啦", "faan1 lei4 laa1", "欢迎回来", "huān yíng huí lái"), S("g11", "greet", "🏠", "I'm home", "ただいま", "tadaima", "我番咗嚟", "ngo5 faan1 zo2 lei4", "我回来了", "wǒ huí lái le"), S("g12", "greet", "🚶", "Let's go", "いこう", "ikou", "走啦", "zau2 laa1", "走吧", "zǒu ba"), S("g13", "greet", "✋", "Wait for me", "まってて", "mattete", "等等我", "dang2 dang2 ngo5", "等等我", "děng deng wǒ"), S("g14", "greet", "💕", "Nice to meet you", "はじめまして", "hajimemashite", "好高興識你", "hou2 gou1 hing3 sik1 nei5", "很高兴认识你", "hěn gāo xìng rèn shi nǐ"), S("g15", "greet", "🚪", "I'm going now", "いってきます", "ittekimasu", "我出去喇", "ngo5 ceot1 heoi3 laa3", "我出去了", "wǒ chū qù le"), S("g16", "greet", "👋", "Have a good day", "いってらっしゃい", "itterasshai", "慢慢行", "maan6 maan2 haang4", "慢走", "màn zǒu"), S("g17", "greet", "🤝", "How are you?", "げんき？", "genki?", "你好嗎？", "nei5 hou2 maa3", "你好吗？", "nǐ hǎo ma"), S("g18", "greet", "😄", "I'm great!", "げんきだよ", "genki da yo", "我好好", "ngo5 hou2 hou2", "我很好", "wǒ hěn hǎo"), S("g19", "greet", "🌸", "Long time no see", "ひさしぶり", "hisashiburi", "好耐冇見", "hou2 noi6 mou5 gin3", "好久不见", "hǎo jiǔ bú jiàn"), S("g20", "greet", "⚠️", "Take care", "きをつけてね", "ki o tsukete ne", "小心啲", "siu2 sam1 di1", "小心点", "xiǎo xīn diǎn"), S("m1", "morn", "⏰", "Wake up!", "おきて！", "okite!", "起身喇！", "hei2 san1 laa3", "起床了！", "qǐ chuáng le"), S("m2", "morn", "😴", "Are you awake?", "おきた？", "okita?", "瞓醒未呀？", "fan3 sing2 mei6 aa3", "睡醒了吗？", "shuì xǐng le ma"), S("m3", "morn", "👕", "Let's get dressed", "きがえよう", "kigaeyou", "換衫喇", "wun6 saam1 laa3", "换衣服", "huàn yī fu"), S("m4", "morn", "🦷", "Brush your teeth", "はをみがいて", "ha o migaite", "刷牙喇", "caat3 ngaa4 laa3", "刷牙", "shuā yá"), S("m5", "morn", "🧼", "Wash your face", "かおをあらって", "kao o aratte", "洗面喇", "sai2 min6 laa3", "洗脸", "xǐ liǎn"), S("m6", "morn", "🚽", "Go to the toilet", "トイレいって", "toire itte", "去廁所", "heoi3 ci3 so2", "去厕所", "qù cè suǒ"), S("m7", "morn", "🍳", "Breakfast is ready", "あさごはんだよ", "asagohan da yo", "食早餐喇", "sik6 zou2 caan1 laa3", "吃早饭了", "chī zǎo fàn le"), S("m8", "morn", "🎒", "Get your bag", "かばんもって", "kaban motte", "拎書包", "ling1 syu1 baau1", "拿书包", "ná shū bāo"), S("m9", "morn", "👟", "Put on your shoes", "くつはいて", "kutsu haite", "著鞋", "zoek3 haai4", "穿鞋", "chuān xié"), S("m10", "morn", "🧥", "Put on your jacket", "うわぎきて", "uwagi kite", "著褸", "zoek3 lau1", "穿外套", "chuān wài tào"), S("m11", "morn", "🪮", "Let's brush your hair", "かみとかそう", "kami tokasou", "梳頭", "so1 tau4", "梳头", "shū tóu"), S("m12", "morn", "💨", "Hurry up", "はやくして", "hayaku shite", "快啲啦", "faai3 di1 laa1", "快点", "kuài diǎn"), S("m13", "morn", "🕐", "We're going to be late", "おくれちゃう", "okurechau", "遲到喇", "ci4 dou3 laa3", "要迟到了", "yào chí dào le"), S("m14", "morn", "🌡️", "Did you sleep well?", "よくねむれた？", "yoku nemureta?", "瞓得好唔好呀？", "fan3 dak1 hou2 m4 hou2 aa3", "睡得好吗？", "shuì de hǎo ma"), S("m15", "morn", "🧦", "Where are your socks?", "くつしたどこ？", "kutsushita doko?", "襪喺邊度呀？", "mat6 hai2 bin1 dou6 aa3", "袜子在哪？", "wà zi zài nǎr"), S("m16", "morn", "🍽️", "Eat it all up", "ぜんぶたべて", "zenbu tabete", "食晒佢", "sik6 saai3 keoi5", "全部吃完", "quán bù chī wán"), S("m17", "morn", "🥛", "Drink your milk", "ぎゅうにゅうのんで", "gyuunyuu nonde", "飲奶", "jam2 naai5", "喝牛奶", "hē niú nǎi"), S("m18", "morn", "✅", "Are you ready?", "じゅんびできた？", "junbi dekita?", "準備好未呀？", "zeon2 bei6 hou2 mei6 aa3", "准备好了吗？", "zhǔn bèi hǎo le ma"), S("m19", "morn", "🌤️", "It's a nice day", "いいてんきだね", "ii tenki da ne", "今日好天", "gam1 jat6 hou2 tin1", "今天天气好", "jīn tiān tiān qì hǎo"), S("m20", "morn", "🚗", "Time to go to school", "がっこういくよ", "gakkou iku yo", "返學喇", "faan1 hok6 laa3", "上学了", "shàng xué le"), S("e1", "eat", "🍽️", "Let's eat!", "いただきます", "itadakimasu", "食飯喇", "sik6 faan6 laa3", "吃饭了", "chī fàn le"), S("e2", "eat", "😋", "It's delicious!", "おいしい！", "oishii!", "好好食！", "hou2 hou2 sik6", "好吃！", "hǎo chī"), S("e3", "eat", "🤤", "I'm hungry", "おなかすいた", "onaka suita", "我肚餓", "ngo5 tou5 ngo6", "我饿了", "wǒ è le"), S("e4", "eat", "💧", "I'm thirsty", "のどかわいた", "nodo kawaita", "我口渴", "ngo5 hau2 hot3", "我渴了", "wǒ kě le"), S("e5", "eat", "🥢", "Use your chopsticks", "おはしつかって", "ohashi tsukatte", "用筷子", "jung6 faai3 zi2", "用筷子", "yòng kuài zi"), S("e6", "eat", "🍚", "One more bowl?", "おかわりする？", "okawari suru?", "再食多碗？", "zoi3 sik6 do1 wun2", "再吃一碗？", "zài chī yì wǎn"), S("e7", "eat", "🙅", "I'm full", "おなかいっぱい", "onaka ippai", "我食飽喇", "ngo5 sik6 baau2 laa3", "我吃饱了", "wǒ chī bǎo le"), S("e8", "eat", "🥦", "Eat your vegetables", "やさいたべて", "yasai tabete", "食埋啲菜", "sik6 maai4 di1 coi3", "吃蔬菜", "chī shū cài"), S("e9", "eat", "🍴", "Sit properly", "ちゃんとすわって", "chanto suwatte", "坐定啲", "co5 ding6 di1", "坐好", "zuò hǎo"), S("e10", "eat", "🐢", "Eat slowly", "ゆっくりたべて", "yukkuri tabete", "慢慢食", "maan6 maan2 sik6", "慢慢吃", "màn màn chī"), S("e11", "eat", "🤲", "Wash your hands first", "てをあらって", "te o aratte", "先洗手", "sin1 sai2 sau2", "先洗手", "xiān xǐ shǒu"), S("e12", "eat", "🍫", "Can I have a snack?", "おやつたべたい", "oyatsu tabetai", "想食零食", "soeng2 sik6 ling4 sik6", "想吃零食", "xiǎng chī líng shí"), S("e13", "eat", "🙏", "Thanks for the meal", "ごちそうさま", "gochisousama", "食完喇,多謝", "sik6 jyun4 laa3, do1 ze6", "吃完了，谢谢", "chī wán le, xiè xie"), S("e14", "eat", "🥄", "Don't spill it", "こぼさないで", "kobosanai de", "唔好倒瀉", "m4 hou2 dou2 se2", "别洒了", "bié sǎ le"), S("e15", "eat", "😖", "I don't want it", "いらない", "iranai", "唔要呀", "m4 jiu3 aa3", "不要", "bú yào"), S("e16", "eat", "🍉", "Do you want fruit?", "くだものいる？", "kudamono iru?", "食唔食生果？", "sik6 m4 sik6 saang1 gwo2", "吃水果吗？", "chī shuǐ guǒ ma"), S("e17", "eat", "🔥", "It's hot, be careful", "あついよ", "atsui yo", "好熱,小心", "hou2 jit6, siu2 sam1", "很烫，小心", "hěn tàng, xiǎo xīn"), S("e18", "eat", "😝", "I don't like it", "すきじゃない", "suki ja nai", "唔鍾意食", "m4 zung1 ji3 sik6", "不喜欢", "bù xǐ huan"), S("e19", "eat", "👍", "Just try a little", "ちょっとたべてみて", "chotto tabete mite", "試吓啦", "si3 haa5 laa1", "尝一点", "cháng yì diǎn"), S("e20", "eat", "🧽", "Wipe your mouth", "くちふいて", "kuchi fuite", "抹乾淨個嘴", "maat3 gon1 zeng6 go3 zeoi2", "擦擦嘴", "cā cā zuǐ"), S("c1", "class", "🪑", "Please sit down", "すわってください", "suwatte kudasai", "坐低", "co5 dai1", "请坐下", "qǐng zuò xià"), S("c2", "class", "🧍", "Please stand up", "たってください", "tatte kudasai", "企起身", "kei5 hei2 san1", "请站起来", "qǐng zhàn qǐ lái"), S("c3", "class", "🤫", "Quiet please", "しずかにして", "shizuka ni shite", "靜啲", "zing6 di1", "安静", "ān jìng"), S("c4", "class", "✋", "Raise your hand", "てをあげて", "te o agete", "舉手", "geoi2 sau2", "举手", "jǔ shǒu"), S("c5", "class", "👂", "Listen carefully", "よくきいて", "yoku kiite", "用心聽", "jung6 sam1 teng1", "认真听", "rèn zhēn tīng"), S("c6", "class", "👀", "Look at me", "こっちみて", "kocchi mite", "望住我", "mong6 zyu6 ngo5", "看着我", "kàn zhe wǒ"), S("c7", "class", "🙋", "I have a question", "しつもんがあります", "shitsumon ga arimasu", "我有問題", "ngo5 jau5 man6 tai4", "我有问题", "wǒ yǒu wèn tí"), S("c8", "class", "🚻", "May I go to the toilet?", "トイレいっていい？", "toire itte ii?", "可唔可以去廁所？", "ho2 m4 ho2 ji5 heoi3 ci3 so2", "可以去厕所吗？", "kě yǐ qù cè suǒ ma"), S("c9", "class", "📚", "Open your book", "ほんをひらいて", "hon o hiraite", "揭開本書", "kit3 hoi1 bun2 syu1", "打开书", "dǎ kāi shū"), S("c10", "class", "✏️", "Let's draw a picture", "えをかこう", "e o kakou", "畫畫", "waak6 waa2", "画画", "huà huà"), S("c11", "class", "🎵", "Let's sing a song", "うたをうたおう", "uta o utaou", "唱歌", "coeng3 go1", "唱歌", "chàng gē"), S("c12", "class", "👏", "Well done!", "よくできました", "yoku dekimashita", "做得好好", "zou6 dak1 hou2 hou2", "做得好", "zuò de hǎo"), S("c13", "class", "🔄", "Line up please", "ならんで", "narande", "排隊", "paai4 deoi2", "排队", "pái duì"), S("c14", "class", "🧹", "Tidy up your things", "おかたづけ", "okatazuke", "收拾好", "sau1 sap6 hou2", "收拾好", "shōu shi hǎo"), S("c15", "class", "🤝", "Share with your friends", "おともだちとわけて", "otomodachi to wakete", "同朋友分享", "tung4 pang4 jau5 fan1 hoeng2", "和朋友分享", "hé péng you fēn xiǎng"), S("c16", "class", "🚶", "Walk, don't run", "あるいて", "aruite", "唔好走,慢慢行", "m4 hou2 zau2, maan6 maan2 haang4", "慢慢走", "màn màn zǒu"), S("c17", "class", "⭕", "That's correct", "せいかい", "seikai", "啱喇", "ngaam1 laa3", "对了", "duì le"), S("c18", "class", "🔁", "Try again", "もういちど", "mou ichido", "再試一次", "zoi3 si3 jat1 ci3", "再试一次", "zài shì yí cì"), S("c19", "class", "🎨", "What colour is this?", "なにいろ？", "nani iro?", "咩顏色呀？", "me1 ngaan4 sik1 aa3", "什么颜色？", "shén me yán sè"), S("c20", "class", "🔢", "Let's count together", "いっしょにかぞえよう", "issho ni kazoeyou", "一齊數", "jat1 cai4 sou2", "一起数", "yì qǐ shǔ"), S("p1", "play", "🎮", "Let's play!", "あそぼう！", "asobou!", "一齊玩", "jat1 cai4 waan2", "一起玩", "yì qǐ wán"), S("p2", "play", "🏃", "It's your turn", "じゅんばんだよ", "junban da yo", "到你喇", "dou3 nei5 laa3", "到你了", "dào nǐ le"), S("p3", "play", "🤲", "Can I play too?", "いれて？", "irete?", "可唔可以一齊玩？", "ho2 m4 ho2 ji5 jat1 cai4 waan2", "我能玩吗？", "wǒ néng wán ma"), S("p4", "play", "🧸", "Let's share the toys", "おもちゃわけよう", "omocha wakeyou", "玩具一齊玩", "wun6 geoi6 jat1 cai4 waan2", "一起玩玩具", "yì qǐ wán wán jù"), S("p5", "play", "🏀", "Throw the ball", "ボールなげて", "booru nagete", "掟個波", "deng3 go3 bo1", "扔球", "rēng qiú"), S("p6", "play", "🤸", "Be careful!", "きをつけて！", "ki o tsukete!", "小心呀！", "siu2 sam1 aa3", "小心！", "xiǎo xīn"), S("p7", "play", "😆", "That's so fun!", "たのしい！", "tanoshii!", "好好玩！", "hou2 hou2 waan2", "好好玩！", "hǎo hǎo wán"), S("p8", "play", "🏆", "I won!", "かった！", "katta!", "我贏咗！", "ngo5 jeng4 zo2", "我赢了！", "wǒ yíng le"), S("p9", "play", "😅", "You win", "まけちゃった", "makechatta", "你贏喇", "nei5 jeng4 laa3", "你赢了", "nǐ yíng le"), S("p10", "play", "🤗", "Let's play together", "いっしょにあそぼう", "issho ni asobou", "一齊玩好唔好？", "jat1 cai4 waan2 hou2 m4 hou2", "一起玩好吗？", "yì qǐ wán hǎo ma"), S("p11", "play", "🚫", "Don't push", "おさないで", "osanai de", "唔好推", "m4 hou2 teoi1", "别推", "bié tuī"), S("p12", "play", "🧩", "Let's build something", "つくろう", "tsukurou", "砌嘢", "cai3 je5", "搭东西", "dā dōng xi"), S("p13", "play", "🎈", "Catch it!", "キャッチして！", "kyacchi shite!", "接住！", "zip3 zyu6", "接住！", "jiē zhù"), S("p14", "play", "🙈", "Let's play hide and seek", "かくれんぼしよう", "kakurenbo shiyou", "玩捉迷藏", "waan2 zuk1 mai4 cong4", "玩捉迷藏", "wán zhuō mí cáng"), S("p15", "play", "🛝", "Let's go to the playground", "こうえんいこう", "kouen ikou", "去公園玩", "heoi3 gung1 jyun2 waan2", "去公园玩", "qù gōng yuán wán"), S("p16", "play", "⏰", "Five more minutes", "あとごふん", "ato go-fun", "再玩五分鐘", "zoi3 waan2 ng5 fan1 zung1", "再玩五分钟", "zài wán wǔ fēn zhōng"), S("p17", "play", "🧼", "Time to clean up", "おかたづけのじかん", "okatazuke no jikan", "收玩具喇", "sau1 wun6 geoi6 laa3", "收拾玩具", "shōu shi wán jù"), S("p18", "play", "😢", "I want a turn too", "わたしもやりたい", "watashi mo yaritai", "我都想玩", "ngo5 dou1 soeng2 waan2", "我也想玩", "wǒ yě xiǎng wán"), S("p19", "play", "🤝", "Let's take turns", "じゅんばんでね", "junban de ne", "輪流玩", "leon4 lau4 waan2", "轮流玩", "lún liú wán"), S("p20", "play", "👋", "Let's play again tomorrow", "またあそぼう", "mata asobou", "聽日再玩", "ting1 jat6 zoi3 waan2", "明天再玩", "míng tiān zài wán"), S("f1", "feel", "😊", "I'm happy", "うれしい", "ureshii", "我好開心", "ngo5 hou2 hoi1 sam1", "我很开心", "wǒ hěn kāi xīn"), S("f2", "feel", "😢", "I'm sad", "かなしい", "kanashii", "我好唔開心", "ngo5 hou2 m4 hoi1 sam1", "我很难过", "wǒ hěn nán guò"), S("f3", "feel", "😠", "I'm angry", "おこってる", "okotteru", "我嬲嘞", "ngo5 nau1 laak3", "我生气了", "wǒ shēng qì le"), S("f4", "feel", "😨", "I'm scared", "こわい", "kowai", "我驚呀", "ngo5 geng1 aa3", "我害怕", "wǒ hài pà"), S("f5", "feel", "😴", "I'm sleepy", "ねむい", "nemui", "我眼瞓", "ngo5 ngaan5 fan3", "我困了", "wǒ kùn le"), S("f6", "feel", "🤕", "It hurts", "いたい", "itai", "好痛呀", "hou2 tung3 aa3", "很疼", "hěn téng"), S("f7", "feel", "🥺", "I miss you", "あいたい", "aitai", "好掛住你", "hou2 gwaa3 zyu6 nei5", "我想你", "wǒ xiǎng nǐ"), S("f8", "feel", "😭", "Don't cry", "なかないで", "nakanai de", "唔好喊", "m4 hou2 haam3", "别哭", "bié kū"), S("f9", "feel", "🤗", "It's okay", "だいじょうぶ", "daijoubu", "冇事嘅", "mou5 si6 ge3", "没事的", "méi shì de"), S("f10", "feel", "😟", "What's wrong?", "どうしたの？", "dou shita no?", "咩事呀？", "me1 si6 aa3", "怎么了？", "zěn me le"), S("f11", "feel", "🥰", "I love you", "だいすき", "daisuki", "我愛你", "ngo5 oi3 nei5", "我爱你", "wǒ ài nǐ"), S("f12", "feel", "😞", "I'm tired", "つかれた", "tsukareta", "我好攰", "ngo5 hou2 gui6", "我累了", "wǒ lèi le"), S("f13", "feel", "😳", "I'm shy", "はずかしい", "hazukashii", "我怕醜", "ngo5 paa3 cau2", "我害羞", "wǒ hài xiū"), S("f14", "feel", "🤩", "I'm excited", "わくわくする", "wakuwaku suru", "我好興奮", "ngo5 hou2 hing1 fan5", "我好兴奋", "wǒ hǎo xīng fèn"), S("f15", "feel", "😣", "I don't feel well", "きもちわるい", "kimochi warui", "我唔舒服", "ngo5 m4 syu1 fuk6", "我不舒服", "wǒ bù shū fu"), S("f16", "feel", "🤒", "I have a fever", "ねつがある", "netsu ga aru", "我發燒", "ngo5 faat3 siu1", "我发烧", "wǒ fā shāo"), S("f17", "feel", "😌", "I feel better", "よくなった", "yoku natta", "好返啲喇", "hou2 faan1 di1 laa3", "好多了", "hǎo duō le"), S("f18", "feel", "💪", "I can do it", "できるよ", "dekiru yo", "我得嘅", "ngo5 dak1 ge3", "我能行", "wǒ néng xíng"), S("f19", "feel", "🥳", "Happy birthday!", "おたんじょうびおめでとう", "otanjoubi omedetou", "生日快樂", "saang1 jat6 faai3 lok6", "生日快乐", "shēng rì kuài lè"), S("f20", "feel", "😊", "Are you okay?", "だいじょうぶ？", "daijoubu?", "你冇事吖嘛？", "nei5 mou5 si6 aa1 maa3", "你还好吗？", "nǐ hái hǎo ma"), S("mn1", "man", "🙏", "Please", "おねがいします", "onegai shimasu", "唔該你", "m4 goi1 nei5", "请", "qǐng"), S("mn2", "man", "🤝", "Let's be friends", "おともだちになろう", "otomodachi ni narou", "做朋友好唔好？", "zou6 pang4 jau5 hou2 m4 hou2", "做朋友好吗？", "zuò péng you hǎo ma"), S("mn3", "man", "💛", "Be kind to each other", "なかよくしてね", "nakayoku shite ne", "要錫對方", "jiu3 sek3 deoi3 fong1", "要友好", "yào yǒu hǎo"), S("mn4", "man", "🆘", "Are you okay?", "だいじょうぶ？", "daijoubu?", "你冇事呀嘛？", "nei5 mou5 si6 aa3 maa3", "你没事吧？", "nǐ méi shì ba"), S("mn5", "man", "🫂", "Let's say sorry", "ごめんねしよう", "gomen ne shiyou", "講對唔住", "gong2 deoi3 m4 zyu6", "说对不起", "shuō duì bu qǐ"), S("mn6", "man", "🤲", "Can I borrow it?", "かしてくれる？", "kashite kureru?", "可唔可以借俾我？", "ho2 m4 ho2 ji5 ze3 bei2 ngo5", "可以借我吗？", "kě yǐ jiè wǒ ma"), S("mn7", "man", "🎁", "Here you go", "どうぞ", "douzo", "俾你", "bei2 nei5", "给你", "gěi nǐ"), S("mn8", "man", "🙇", "Excuse me, sorry", "しつれいします", "shitsurei shimasu", "唔好意思", "m4 hou2 ji3 si1", "不好意思", "bù hǎo yì si"), S("mn9", "man", "👏", "Good job!", "すごいね！", "sugoi ne!", "叻仔！", "lek1 zai2", "真棒！", "zhēn bàng"), S("mn10", "man", "🤗", "Don't worry", "しんぱいしないで", "shinpai shinai de", "唔使擔心", "m4 sai2 daam1 sam1", "别担心", "bié dān xīn"), S("mn11", "man", "🙋", "Can you help me?", "てつだって", "tetsudatte", "可唔可以幫我？", "ho2 m4 ho2 ji5 bong1 ngo5", "能帮我吗？", "néng bāng wǒ ma"), S("mn12", "man", "🤐", "Don't tell lies", "うそはだめ", "uso wa dame", "唔好講大話", "m4 hou2 gong2 daai6 waa6", "别说谎", "bié shuō huǎng"), S("mn13", "man", "✋", "Stop it please", "やめて", "yamete", "唔好啦", "m4 hou2 laa1", "别这样", "bié zhè yàng"), S("mn14", "man", "👍", "Let's make up", "なかなおりしよう", "nakanaori shiyou", "和好啦", "wo4 hou2 laa1", "和好吧", "hé hǎo ba"), S("mn15", "man", "💐", "You're so kind", "やさしいね", "yasashii ne", "你好好人", "nei5 hou2 hou2 jan4", "你真好", "nǐ zhēn hǎo"), S("mn16", "man", "🤝", "Let's hold hands", "てをつなごう", "te o tsunagou", "拖手", "to1 sau2", "牵手", "qiān shǒu"), S("mn17", "man", "🌟", "I'm proud of you", "えらいね", "erai ne", "你好叻", "nei5 hou2 lek1", "你真厉害", "nǐ zhēn lì hai"), S("mn18", "man", "😊", "Don't be afraid", "こわがらないで", "kowagaranai de", "唔使驚", "m4 sai2 geng1", "别怕", "bié pà"), S("mn19", "man", "🤲", "Let's share", "シェアしよう", "shea shiyou", "一齊用", "jat1 cai4 jung6", "一起用", "yì qǐ yòng"), S("mn20", "man", "🙏", "Thank you so much", "ほんとうにありがとう", "hontou ni arigatou", "多謝晒", "do1 ze6 saai3", "非常感谢", "fēi cháng gǎn xiè"), S("h1", "help", "🤲", "Help me please", "たすけて", "tasukete", "幫吓我", "bong1 haa5 ngo5", "帮帮我", "bāng bang wǒ"), S("h2", "help", "🫴", "Pick me up", "だっこして", "dakko shite", "抱我", "pou5 ngo5", "抱我", "bào wǒ"), S("h3", "help", "💧", "I want water", "おみずほしい", "omizu hoshii", "我想飲水", "ngo5 soeng2 jam2 seoi2", "我要喝水", "wǒ yào hē shuǐ"), S("h4", "help", "🚽", "I need the toilet", "トイレいきたい", "toire ikitai", "我想去廁所", "ngo5 soeng2 heoi3 ci3 so2", "我要上厕所", "wǒ yào shàng cè suǒ"), S("h5", "help", "🆘", "I can't do it", "できない", "dekinai", "我唔識做", "ngo5 m4 sik1 zou6", "我不会", "wǒ bú huì"), S("h6", "help", "👆", "Show me how", "やりかたおしえて", "yarikata oshiete", "教我點做", "gaau3 ngo5 dim2 zou6", "教我怎么做", "jiāo wǒ zěn me zuò"), S("h7", "help", "🔍", "I can't find it", "みつからない", "mitsukaranai", "搵唔到", "wan2 m4 dou2", "找不到", "zhǎo bú dào"), S("h8", "help", "🧥", "Help me put this on", "きせて", "kisete", "幫我著", "bong1 ngo5 zoek3", "帮我穿", "bāng wǒ chuān"), S("h9", "help", "🤏", "A little more please", "もうちょっと", "mou chotto", "再多啲", "zoi3 do1 di1", "再多一点", "zài duō yì diǎn"), S("h10", "help", "✋", "That's enough", "もういい", "mou ii", "夠喇", "gau3 laa3", "够了", "gòu le"), S("h11", "help", "🙋", "Wait a moment", "ちょっとまって", "chotto matte", "等一陣", "dang2 jat1 zan6", "等一下", "děng yí xià"), S("h12", "help", "🫳", "Put me down", "おろして", "oroshite", "放低我", "fong3 dai1 ngo5", "放我下来", "fàng wǒ xià lái"), S("h13", "help", "🤔", "What is this?", "これなに？", "kore nani?", "呢個係咩呀？", "ni1 go3 hai6 me1 aa3", "这是什么？", "zhè shì shén me"), S("h14", "help", "❓", "Why?", "どうして？", "doushite?", "點解呀？", "dim2 gaai2 aa3", "为什么？", "wèi shén me"), S("h15", "help", "📍", "Where is it?", "どこ？", "doko?", "喺邊度呀？", "hai2 bin1 dou6 aa3", "在哪里？", "zài nǎ li"), S("h16", "help", "⏳", "When?", "いつ？", "itsu?", "幾時呀？", "gei2 si4 aa3", "什么时候？", "shén me shí hou"), S("h17", "help", "🙆", "Like this?", "こう？", "kou?", "係咁樣呀？", "hai6 gam2 joeng2 aa3", "这样吗？", "zhè yàng ma"), S("h18", "help", "🆗", "I understand", "わかった", "wakatta", "我明喇", "ngo5 ming4 laa3", "我懂了", "wǒ dǒng le"), S("h19", "help", "🤷", "I don't understand", "わからない", "wakaranai", "我唔明", "ngo5 m4 ming4", "我不懂", "wǒ bù dǒng"), S("h20", "help", "🙏", "Can you say it again?", "もういちどいって", "mou ichido itte", "講多次", "gong2 do1 ci3", "再说一遍", "zài shuō yí biàn"), S("o1", "out", "🚗", "Let's go out", "おでかけしよう", "odekake shiyou", "出去玩", "ceot1 heoi3 waan2", "出去玩", "chū qù wán"), S("o2", "out", "🤚", "Hold my hand", "てをつないで", "te o tsunaide", "拖住我隻手", "to1 zyu6 ngo5 zek3 sau2", "牵着我的手", "qiān zhe wǒ de shǒu"), S("o3", "out", "🚦", "Wait for the green light", "あおまって", "ao matte", "等綠燈", "dang2 luk6 dang1", "等绿灯", "děng lǜ dēng"), S("o4", "out", "👀", "Look both ways", "みぎひだりみて", "migi hidari mite", "睇清楚兩邊", "tai2 cing1 co2 loeng5 bin1", "看两边", "kàn liǎng biān"), S("o5", "out", "🚙", "Be careful of cars", "くるまきをつけて", "kuruma ki o tsukete", "小心啲車", "siu2 sam1 di1 ce1", "小心车", "xiǎo xīn chē"), S("o6", "out", "🛒", "Let's go shopping", "かいものいこう", "kaimono ikou", "去買嘢", "heoi3 maai5 je5", "去买东西", "qù mǎi dōng xi"), S("o7", "out", "🤝", "Stay close to me", "そばにいて", "soba ni ite", "跟住我", "gan1 zyu6 ngo5", "跟着我", "gēn zhe wǒ"), S("o8", "out", "🚌", "Let's take the bus", "バスにのろう", "basu ni norou", "搭巴士", "daap3 baa1 si2", "坐公交", "zuò gōng jiāo"), S("o9", "out", "🌧️", "Bring an umbrella", "かさもって", "kasa motte", "記得拎遮", "gei3 dak1 ling1 ze1", "带伞", "dài sǎn"), S("o10", "out", "🧴", "Put on sunscreen", "ひやけどめぬって", "hiyakedome nutte", "搽防曬", "caa4 fong4 saai3", "抹防晒", "cā fáng shài"), S("o11", "out", "🏞️", "Let's go to the park", "こうえんいこう", "kouen ikou", "去公園", "heoi3 gung1 jyun2", "去公园", "qù gōng yuán"), S("o12", "out", "🍦", "Do you want ice cream?", "アイスたべる？", "aisu taberu?", "食唔食雪糕？", "sik6 m4 sik6 syut3 gou1", "吃冰淇淋吗？", "chī bīng qí lín ma"), S("o13", "out", "🚏", "Don't run off", "はしっていかないで", "hashitte ikanai de", "唔好周圍走", "m4 hou2 zau1 wai4 zau2", "别乱跑", "bié luàn pǎo"), S("o14", "out", "🐶", "Look, a dog!", "わんわんだ！", "wanwan da!", "你睇,有隻狗！", "nei5 tai2, jau5 zek3 gau2", "看，狗狗！", "kàn, gǒu gou"), S("o15", "out", "💦", "Wash your hands at home", "かえったらてあらって", "kaettara te aratte", "返到屋企洗手", "faan1 dou3 uk1 kei2 sai2 sau2", "回家洗手", "huí jiā xǐ shǒu"), S("o16", "out", "👟", "Tie your shoelaces", "くつひもむすんで", "kutsuhimo musunde", "綁鞋帶", "bong2 haai4 daai2", "系鞋带", "jì xié dài"), S("o17", "out", "🎒", "Don't forget your bag", "かばんわすれないで", "kaban wasurenai de", "唔好唔記得個書包", "m4 hou2 m4 gei3 dak1 go3 syu1 baau1", "别忘了书包", "bié wàng le shū bāo"), S("o18", "out", "🏠", "Let's go home", "おうちかえろう", "ouchi kaerou", "返屋企", "faan1 uk1 kei2", "回家", "huí jiā"), S("o19", "out", "😊", "Did you have fun?", "たのしかった？", "tanoshikatta?", "玩得開唔開心呀？", "waan2 dak1 hoi1 m4 hoi1 sam1 aa3", "玩得开心吗？", "wán de kāi xīn ma"), S("o20", "out", "🚸", "Hold the railing", "てすりもって", "tesuri motte", "揸住扶手", "zaa1 zyu6 fu4 sau2", "扶着栏杆", "fú zhe lán gān"), S("b1", "bed", "🛁", "Time for a bath", "おふろのじかん", "ofuro no jikan", "沖涼喇", "cung1 loeng4 laa3", "洗澡了", "xǐ zǎo le"), S("b2", "bed", "🦷", "Brush your teeth", "はみがきして", "hamigaki shite", "刷牙喇", "caat3 ngaa4 laa3", "刷牙", "shuā yá"), S("b3", "bed", "👚", "Put on your pyjamas", "パジャマきて", "pajama kite", "著睡衣", "zoek3 seoi6 ji1", "穿睡衣", "chuān shuì yī"), S("b4", "bed", "📖", "Let's read a book", "えほんよもう", "ehon yomou", "睇故事書", "tai2 gu3 si6 syu1", "读故事书", "dú gù shi shū"), S("b5", "bed", "🛏️", "Time for bed", "ねるじかんだよ", "neru jikan da yo", "瞓覺喇", "fan3 gaau3 laa3", "睡觉了", "shuì jiào le"), S("b6", "bed", "😴", "Close your eyes", "めをとじて", "me o tojite", "閉埋眼", "bai3 maai4 ngaan5", "闭上眼", "bì shàng yǎn"), S("b7", "bed", "🌙", "Good night, sweet dreams", "おやすみ、いいゆめを", "oyasumi, ii yume o", "晚安,發個好夢", "maan5 on1, faat3 go3 hou2 mung6", "晚安，做个好梦", "wǎn ān, zuò ge hǎo mèng"), S("b8", "bed", "🧸", "Where's your teddy?", "くまさんどこ？", "kumasan doko?", "你隻熊仔呢？", "nei5 zek3 hung4 zai2 ne1", "小熊在哪？", "xiǎo xióng zài nǎr"), S("b9", "bed", "🤫", "It's quiet time now", "しずかにねよう", "shizuka ni neyou", "靜靜哋瞓", "zing6 zing6 dei2 fan3", "安静睡觉", "ān jìng shuì jiào"), S("b10", "bed", "💡", "Lights off", "でんきけすよ", "denki kesu yo", "熄燈", "sik1 dang1", "关灯", "guān dēng"), S("b11", "bed", "🫂", "I'll stay with you", "そばにいるよ", "soba ni iru yo", "我陪住你", "ngo5 pui4 zyu6 nei5", "我陪着你", "wǒ péi zhe nǐ"), S("b12", "bed", "😘", "Goodnight kiss", "おやすみのキス", "oyasumi no kisu", "錫一啖", "sek3 jat1 daam6", "亲一下", "qīn yí xià"), S("b13", "bed", "🚽", "Go potty first", "さきにトイレ", "saki ni toire", "瞓前去廁所", "fan3 cin4 heoi3 ci3 so2", "先上厕所", "xiān shàng cè suǒ"), S("b14", "bed", "💧", "One last drink of water", "さいごのおみず", "saigo no omizu", "飲多啖水", "jam2 do1 daam6 seoi2", "喝点水", "hē diǎn shuǐ"), S("b15", "bed", "🥱", "Are you sleepy?", "ねむい？", "nemui?", "眼瞓喇咩？", "ngaan5 fan3 laa3 me1", "困了吗？", "kùn le ma"), S("b16", "bed", "🎶", "Let's sing a lullaby", "こもりうたうたおう", "komoriuta utaou", "唱催眠曲", "coeng3 ceoi1 min4 kuk1", "唱摇篮曲", "chàng yáo lán qǔ"), S("b17", "bed", "☀️", "See you in the morning", "あしたのあさね", "ashita no asa ne", "聽朝見", "ting1 ziu1 gin3", "明早见", "míng zǎo jiàn"), S("b18", "bed", "🤗", "I love you so much", "だいすきだよ", "daisuki da yo", "我好錫你", "ngo5 hou2 sek3 nei5", "我很爱你", "wǒ hěn ài nǐ"), S("b19", "bed", "😌", "Sleep tight", "ぐっすりねてね", "gussuri nete ne", "瞓得好啲", "fan3 dak1 hou2 di1", "睡个好觉", "shuì ge hǎo jiào"), S("b20", "bed", "🌟", "Today was a good day", "きょうもいいひだったね", "kyou mo ii hi datta ne", "今日好開心", "gam1 jat6 hou2 hoi1 sam1", "今天很开心", "jīn tiān hěn kāi xīn")];
+const DATA = [S("g1", "greet", "👋", "Hello", "こんにちは", "konnichiwa", "你好", "nei5 hou2", "你好", "nǐ hǎo"), S("g2", "greet", "🌅", "Good morning", "おはよう", "ohayou", "早晨", "zou2 san4", "早上好", "zǎo shang hǎo"), S("g3", "greet", "👋", "Bye bye", "バイバイ", "baibai", "拜拜", "baai1 baai3", "再见", "zài jiàn"), S("g4", "greet", "📅", "See you tomorrow", "またあした", "mata ashita", "聽日見", "ting1 jat6 gin3", "明天见", "míng tiān jiàn"), S("g5", "greet", "🌙", "Good night", "おやすみ", "oyasumi", "晚安", "maan5 on1", "晚安", "wǎn ān"), S("g6", "greet", "🙏", "Thank you", "ありがとう", "arigatou", "多謝", "do1 ze6", "谢谢", "xiè xie"), S("g7", "greet", "😊", "You're welcome", "どういたしまして", "douitashimashite", "唔使客氣", "m4 sai2 haak3 hei3", "不客气", "bú kè qi"), S("g8", "greet", "😔", "I'm sorry", "ごめんなさい", "gomen nasai", "對唔住", "deoi3 m4 zyu6", "对不起", "duì bu qǐ"), S("g9", "greet", "🙋", "Excuse me", "すみません", "sumimasen", "唔該", "m4 goi1", "请问", "qǐng wèn"), S("g10", "greet", "🤗", "Welcome back", "おかえり", "okaeri", "番嚟啦", "faan1 lei4 laa1", "欢迎回来", "huān yíng huí lái"), S("g11", "greet", "🏠", "I'm home", "ただいま", "tadaima", "我番咗嚟", "ngo5 faan1 zo2 lei4", "我回来了", "wǒ huí lái le"), S("g12", "greet", "🚶", "Let's go", "いこう", "ikou", "走啦", "zau2 laa1", "走吧", "zǒu ba"), S("g13", "greet", "✋", "Wait for me", "まってて", "mattete", "等等我", "dang2 dang2 ngo5", "等等我", "děng deng wǒ"), S("g14", "greet", "💕", "Nice to meet you", "はじめまして", "hajimemashite", "好高興識你", "hou2 gou1 hing3 sik1 nei5", "很高兴认识你", "hěn gāo xìng rèn shi nǐ"), S("g15", "greet", "🚪", "I'm going now", "いってきます", "ittekimasu", "我出去喇", "ngo5 ceot1 heoi3 laa3", "我出去了", "wǒ chū qù le"), S("g16", "greet", "👋", "Have a good day", "いってらっしゃい", "itterasshai", "慢慢行", "maan6 maan2 haang4", "慢走", "màn zǒu"), S("g17", "greet", "🤝", "How are you?", "げんき？", "genki?", "你好嗎？", "nei5 hou2 maa3", "你好吗？", "nǐ hǎo ma"), S("g18", "greet", "😄", "I'm great!", "げんきだよ", "genki da yo", "我好好", "ngo5 hou2 hou2", "我很好", "wǒ hěn hǎo"), S("g19", "greet", "🌸", "Long time no see", "ひさしぶり", "hisashiburi", "好耐冇見", "hou2 noi6 mou5 gin3", "好久不见", "hǎo jiǔ bú jiàn"), S("g20", "greet", "⚠️", "Take care", "きをつけてね", "ki o tsukete ne", "小心啲", "siu2 sam1 di1", "小心点", "xiǎo xīn diǎn"), S("m1", "morn", "⏰", "Wake up!", "おきて！", "okite!", "起身喇！", "hei2 san1 laa3", "起床了！", "qǐ chuáng le"), S("m2", "morn", "😴", "Are you awake?", "おきた？", "okita?", "瞓醒未呀？", "fan3 sing2 mei6 aa3", "睡醒了吗？", "shuì xǐng le ma"), S("m3", "morn", "👕", "Let's get dressed", "きがえよう", "kigaeyou", "換衫喇", "wun6 saam1 laa3", "换衣服", "huàn yī fu"), S("m4", "morn", "🦷", "Brush your teeth", "はをみがいて", "ha o migaite", "刷牙喇", "caat3 ngaa4 laa3", "刷牙", "shuā yá"), S("m5", "morn", "🧼", "Wash your face", "かおをあらって", "kao o aratte", "洗面喇", "sai2 min6 laa3", "洗脸", "xǐ liǎn"), S("m6", "morn", "🚽", "Go to the toilet", "トイレいって", "toire itte", "去廁所", "heoi3 ci3 so2", "去厕所", "qù cè suǒ"), S("m7", "morn", "🍳", "Breakfast is ready", "あさごはんだよ", "asagohan da yo", "食早餐喇", "sik6 zou2 caan1 laa3", "吃早饭了", "chī zǎo fàn le"), S("m8", "morn", "🎒", "Get your bag", "かばんもって", "kaban motte", "拎書包", "ling1 syu1 baau1", "拿书包", "ná shū bāo"), S("m9", "morn", "👟", "Put on your shoes", "くつはいて", "kutsu haite", "著鞋", "zoek3 haai4", "穿鞋", "chuān xié"), S("m10", "morn", "🧥", "Put on your jacket", "うわぎきて", "uwagi kite", "著褸", "zoek3 lau1", "穿外套", "chuān wài tào"), S("m11", "morn", "🪮", "Let's brush your hair", "かみとかそう", "kami tokasou", "梳頭", "so1 tau4", "梳头", "shū tóu"), S("m12", "morn", "💨", "Hurry up", "はやくして", "hayaku shite", "快啲啦", "faai3 di1 laa1", "快点", "kuài diǎn"), S("m13", "morn", "🕐", "We're going to be late", "おくれちゃう", "okurechau", "遲到喇", "ci4 dou3 laa3", "要迟到了", "yào chí dào le"), S("m14", "morn", "🌡️", "Did you sleep well?", "よくねむれた？", "yoku nemureta?", "瞓得好唔好呀？", "fan3 dak1 hou2 m4 hou2 aa3", "睡得好吗？", "shuì de hǎo ma"), S("m15", "morn", "🧦", "Where are your socks?", "くつしたどこ？", "kutsushita doko?", "襪喺邊度呀？", "mat6 hai2 bin1 dou6 aa3", "袜子在哪？", "wà zi zài nǎr"), S("m16", "morn", "🍽️", "Eat it all up", "ぜんぶたべて", "zenbu tabete", "食晒佢", "sik6 saai3 keoi5", "全部吃完", "quán bù chī wán"), S("m17", "morn", "🥛", "Drink your milk", "ぎゅうにゅうのんで", "gyuunyuu nonde", "飲奶", "jam2 naai5", "喝牛奶", "hē niú nǎi"), S("m18", "morn", "✅", "Are you ready?", "じゅんびできた？", "junbi dekita?", "準備好未呀？", "zeon2 bei6 hou2 mei6 aa3", "准备好了吗？", "zhǔn bèi hǎo le ma"), S("m19", "morn", "🌤️", "It's a nice day", "いいてんきだね", "ii tenki da ne", "今日好天", "gam1 jat6 hou2 tin1", "今天天气好", "jīn tiān tiān qì hǎo"), S("m20", "morn", "🚗", "Time to go to school", "がっこういくよ", "gakkou iku yo", "返學喇", "faan1 hok6 laa3", "上学了", "shàng xué le"), S("e1", "eat", "🍽️", "Let's eat!", "いただきます", "itadakimasu", "食飯喇", "sik6 faan6 laa3", "吃饭了", "chī fàn le"), S("e2", "eat", "😋", "It's delicious!", "おいしい！", "oishii!", "好好食！", "hou2 hou2 sik6", "好吃！", "hǎo chī"), S("e3", "eat", "🤤", "I'm hungry", "おなかすいた", "onaka suita", "我肚餓", "ngo5 tou5 ngo6", "我饿了", "wǒ è le"), S("e4", "eat", "💧", "I'm thirsty", "のどかわいた", "nodo kawaita", "我口渴", "ngo5 hau2 hot3", "我渴了", "wǒ kě le"), S("e5", "eat", "🥢", "Use your chopsticks", "おはしつかって", "ohashi tsukatte", "用筷子", "jung6 faai3 zi2", "用筷子", "yòng kuài zi"), S("e6", "eat", "🍚", "One more bowl?", "おかわりする？", "okawari suru?", "再食多碗？", "zoi3 sik6 do1 wun2", "再吃一碗？", "zài chī yì wǎn"), S("e7", "eat", "🙅", "I'm full", "おなかいっぱい", "onaka ippai", "我食飽喇", "ngo5 sik6 baau2 laa3", "我吃饱了", "wǒ chī bǎo le"), S("e8", "eat", "🥦", "Eat your vegetables", "やさいたべて", "yasai tabete", "食埋啲菜", "sik6 maai4 di1 coi3", "吃蔬菜", "chī shū cài"), S("e9", "eat", "🍴", "Sit properly", "ちゃんとすわって", "chanto suwatte", "坐定啲", "co5 ding6 di1", "坐好", "zuò hǎo"), S("e10", "eat", "🐢", "Eat slowly", "ゆっくりたべて", "yukkuri tabete", "慢慢食", "maan6 maan2 sik6", "慢慢吃", "màn màn chī"), S("e11", "eat", "🤲", "Wash your hands first", "てをあらって", "te o aratte", "先洗手", "sin1 sai2 sau2", "先洗手", "xiān xǐ shǒu"), S("e12", "eat", "🍫", "Can I have a snack?", "おやつたべたい", "oyatsu tabetai", "想食零食", "soeng2 sik6 ling4 sik6", "想吃零食", "xiǎng chī líng shí"), S("e13", "eat", "🙏", "Thanks for the meal", "ごちそうさま", "gochisousama", "食完喇,多謝", "sik6 jyun4 laa3, do1 ze6", "吃完了，谢谢", "chī wán le, xiè xie"), S("e14", "eat", "🥄", "Don't spill it", "こぼさないで", "kobosanai de", "唔好倒瀉", "m4 hou2 dou2 se2", "别洒了", "bié sǎ le"), S("e15", "eat", "😖", "I don't want it", "いらない", "iranai", "唔要呀", "m4 jiu3 aa3", "不要", "bú yào"), S("e16", "eat", "🍉", "Do you want fruit?", "くだものいる？", "kudamono iru?", "食唔食生果？", "sik6 m4 sik6 saang1 gwo2", "吃水果吗？", "chī shuǐ guǒ ma"), S("e17", "eat", "🔥", "It's hot, be careful", "あついよ", "atsui yo", "好熱,小心", "hou2 jit6, siu2 sam1", "很烫，小心", "hěn tàng, xiǎo xīn"), S("e18", "eat", "😝", "I don't like it", "すきじゃない", "suki ja nai", "唔鍾意食", "m4 zung1 ji3 sik6", "不喜欢", "bù xǐ huan"), S("e19", "eat", "👍", "Just try a little", "ちょっとたべてみて", "chotto tabete mite", "試吓啦", "si3 haa5 laa1", "尝一点", "cháng yì diǎn"), S("e20", "eat", "🧽", "Wipe your mouth", "くちふいて", "kuchi fuite", "抹乾淨個嘴", "maat3 gon1 zeng6 go3 zeoi2", "擦擦嘴", "cā cā zuǐ"), S("c1", "class", "🪑", "Please sit down", "すわってください", "suwatte kudasai", "坐低", "co5 dai1", "请坐下", "qǐng zuò xià"), S("c2", "class", "🧍", "Please stand up", "たってください", "tatte kudasai", "企起身", "kei5 hei2 san1", "请站起来", "qǐng zhàn qǐ lái"), S("c3", "class", "🤫", "Quiet please", "しずかにして", "shizuka ni shite", "靜啲", "zing6 di1", "安静", "ān jìng"), S("c4", "class", "✋", "Raise your hand", "てをあげて", "te o agete", "舉手", "geoi2 sau2", "举手", "jǔ shǒu"), S("c5", "class", "👂", "Listen carefully", "よくきいて", "yoku kiite", "用心聽", "jung6 sam1 teng1", "认真听", "rèn zhēn tīng"), S("c6", "class", "👀", "Look at me", "こっちみて", "kocchi mite", "望住我", "mong6 zyu6 ngo5", "看着我", "kàn zhe wǒ"), S("c7", "class", "🙋", "I have a question", "しつもんがあります", "shitsumon ga arimasu", "我有問題", "ngo5 jau5 man6 tai4", "我有问题", "wǒ yǒu wèn tí"), S("c8", "class", "🚻", "May I go to the toilet?", "トイレいっていい？", "toire itte ii?", "可唔可以去廁所？", "ho2 m4 ho2 ji5 heoi3 ci3 so2", "可以去厕所吗？", "kě yǐ qù cè suǒ ma"), S("c9", "class", "📚", "Open your book", "ほんをひらいて", "hon o hiraite", "揭開本書", "kit3 hoi1 bun2 syu1", "打开书", "dǎ kāi shū"), S("c10", "class", "✏️", "Let's draw a picture", "えをかこう", "e o kakou", "畫畫", "waak6 waa2", "画画", "huà huà"), S("c11", "class", "🎵", "Let's sing a song", "うたをうたおう", "uta o utaou", "唱歌", "coeng3 go1", "唱歌", "chàng gē"), S("c12", "class", "👏", "Well done!", "よくできました", "yoku dekimashita", "做得好好", "zou6 dak1 hou2 hou2", "做得好", "zuò de hǎo"), S("c13", "class", "🔄", "Line up please", "ならんで", "narande", "排隊", "paai4 deoi2", "排队", "pái duì"), S("c14", "class", "🧹", "Tidy up your things", "おかたづけ", "okatazuke", "收拾好", "sau1 sap6 hou2", "收拾好", "shōu shi hǎo"), S("c15", "class", "🤝", "Share with your friends", "おともだちとわけて", "otomodachi to wakete", "同朋友分享", "tung4 pang4 jau5 fan1 hoeng2", "和朋友分享", "hé péng you fēn xiǎng"), S("c16", "class", "🚶", "Walk, don't run", "あるいて", "aruite", "唔好走,慢慢行", "m4 hou2 zau2, maan6 maan2 haang4", "慢慢走", "màn màn zǒu"), S("c17", "class", "⭕", "That's correct", "せいかい", "seikai", "啱喇", "ngaam1 laa3", "对了", "duì le"), S("c18", "class", "🔁", "Try again", "もういちど", "mou ichido", "再試一次", "zoi3 si3 jat1 ci3", "再试一次", "zài shì yí cì"), S("c19", "class", "🎨", "What colour is this?", "なにいろ？", "nani iro?", "咩顏色呀？", "me1 ngaan4 sik1 aa3", "什么颜色？", "shén me yán sè"), S("c20", "class", "🔢", "Let's count together", "いっしょにかぞえよう", "issho ni kazoeyou", "一齊數", "jat1 cai4 sou2", "一起数", "yì qǐ shǔ"), S("p1", "play", "🎮", "Let's play!", "あそぼう！", "asobou!", "一齊玩", "jat1 cai4 waan2", "一起玩", "yì qǐ wán"), S("p2", "play", "🏃", "It's your turn", "じゅんばんだよ", "junban da yo", "到你喇", "dou3 nei5 laa3", "到你了", "dào nǐ le"), S("p3", "play", "🤲", "Can I play too?", "いれて？", "irete?", "可唔可以一齊玩？", "ho2 m4 ho2 ji5 jat1 cai4 waan2", "我能玩吗？", "wǒ néng wán ma"), S("p4", "play", "🧸", "Let's share the toys", "おもちゃわけよう", "omocha wakeyou", "玩具一齊玩", "wun6 geoi6 jat1 cai4 waan2", "一起玩玩具", "yì qǐ wán wán jù"), S("p5", "play", "🏀", "Throw the ball", "ボールなげて", "booru nagete", "掟個波", "deng3 go3 bo1", "扔球", "rēng qiú"), S("p6", "play", "🤸", "Be careful!", "きをつけて！", "ki o tsukete!", "小心呀！", "siu2 sam1 aa3", "小心！", "xiǎo xīn"), S("p7", "play", "😆", "That's so fun!", "たのしい！", "tanoshii!", "好好玩！", "hou2 hou2 waan2", "好好玩！", "hǎo hǎo wán"), S("p8", "play", "🏆", "I won!", "かった！", "katta!", "我贏咗！", "ngo5 jeng4 zo2", "我赢了！", "wǒ yíng le"), S("p9", "play", "😅", "You win", "まけちゃった", "makechatta", "你贏喇", "nei5 jeng4 laa3", "你赢了", "nǐ yíng le"), S("p10", "play", "🤗", "Let's play together", "いっしょにあそぼう", "issho ni asobou", "一齊玩好唔好？", "jat1 cai4 waan2 hou2 m4 hou2", "一起玩好吗？", "yì qǐ wán hǎo ma"), S("p11", "play", "🚫", "Don't push", "おさないで", "osanai de", "唔好推", "m4 hou2 teoi1", "别推", "bié tuī"), S("p12", "play", "🧩", "Let's build something", "つくろう", "tsukurou", "砌嘢", "cai3 je5", "搭东西", "dā dōng xi"), S("p13", "play", "🎈", "Catch it!", "キャッチして！", "kyacchi shite!", "接住！", "zip3 zyu6", "接住！", "jiē zhù"), S("p14", "play", "🙈", "Let's play hide and seek", "かくれんぼしよう", "kakurenbo shiyou", "玩捉迷藏", "waan2 zuk1 mai4 cong4", "玩捉迷藏", "wán zhuō mí cáng"), S("p15", "play", "🛝", "Let's go to the playground", "こうえんいこう", "kouen ikou", "去公園玩", "heoi3 gung1 jyun2 waan2", "去公园玩", "qù gōng yuán wán"), S("p16", "play", "⏰", "Five more minutes", "あとごふん", "ato go-fun", "再玩五分鐘", "zoi3 waan2 ng5 fan1 zung1", "再玩五分钟", "zài wán wǔ fēn zhōng"), S("p17", "play", "🧼", "Time to clean up", "おかたづけのじかん", "okatazuke no jikan", "收玩具喇", "sau1 wun6 geoi6 laa3", "收拾玩具", "shōu shi wán jù"), S("p18", "play", "😢", "I want a turn too", "わたしもやりたい", "watashi mo yaritai", "我都想玩", "ngo5 dou1 soeng2 waan2", "我也想玩", "wǒ yě xiǎng wán"), S("p19", "play", "🤝", "Let's take turns", "じゅんばんでね", "junban de ne", "輪流玩", "leon4 lau4 waan2", "轮流玩", "lún liú wán"), S("p20", "play", "👋", "Let's play again tomorrow", "またあそぼう", "mata asobou", "聽日再玩", "ting1 jat6 zoi3 waan2", "明天再玩", "míng tiān zài wán"), S("f1", "feel", "😊", "I'm happy", "うれしい", "ureshii", "我好開心", "ngo5 hou2 hoi1 sam1", "我很开心", "wǒ hěn kāi xīn"), S("f2", "feel", "😢", "I'm sad", "かなしい", "kanashii", "我好唔開心", "ngo5 hou2 m4 hoi1 sam1", "我很难过", "wǒ hěn nán guò"), S("f3", "feel", "😠", "I'm angry", "おこってる", "okotteru", "我嬲嘞", "ngo5 nau1 laak3", "我生气了", "wǒ shēng qì le"), S("f4", "feel", "😨", "I'm scared", "こわい", "kowai", "我驚呀", "ngo5 geng1 aa3", "我害怕", "wǒ hài pà"), S("f5", "feel", "😴", "I'm sleepy", "ねむい", "nemui", "我眼瞓", "ngo5 ngaan5 fan3", "我困了", "wǒ kùn le"), S("f6", "feel", "🤕", "It hurts", "いたい", "itai", "好痛呀", "hou2 tung3 aa3", "很疼", "hěn téng"), S("f7", "feel", "🥺", "I miss you", "あいたい", "aitai", "好掛住你", "hou2 gwaa3 zyu6 nei5", "我想你", "wǒ xiǎng nǐ"), S("f8", "feel", "😭", "Don't cry", "なかないで", "nakanai de", "唔好喊", "m4 hou2 haam3", "别哭", "bié kū"), S("f9", "feel", "🤗", "It's okay", "だいじょうぶ", "daijoubu", "冇事嘅", "mou5 si6 ge3", "没事的", "méi shì de"), S("f10", "feel", "😟", "What's wrong?", "どうしたの？", "dou shita no?", "咩事呀？", "me1 si6 aa3", "怎么了？", "zěn me le"), S("f11", "feel", "🥰", "I love you", "だいすき", "daisuki", "我愛你", "ngo5 oi3 nei5", "我爱你", "wǒ ài nǐ"), S("f12", "feel", "😞", "I'm tired", "つかれた", "tsukareta", "我好攰", "ngo5 hou2 gui6", "我累了", "wǒ lèi le"), S("f13", "feel", "😳", "I'm shy", "はずかしい", "hazukashii", "我怕醜", "ngo5 paa3 cau2", "我害羞", "wǒ hài xiū"), S("f14", "feel", "🤩", "I'm excited", "わくわくする", "wakuwaku suru", "我好興奮", "ngo5 hou2 hing1 fan5", "我好兴奋", "wǒ hǎo xīng fèn"), S("f15", "feel", "😣", "I don't feel well", "きもちわるい", "kimochi warui", "我唔舒服", "ngo5 m4 syu1 fuk6", "我不舒服", "wǒ bù shū fu"), S("f16", "feel", "🤒", "I have a fever", "ねつがある", "netsu ga aru", "我發燒", "ngo5 faat3 siu1", "我发烧", "wǒ fā shāo"), S("f17", "feel", "😌", "I feel better", "よくなった", "yoku natta", "好返啲喇", "hou2 faan1 di1 laa3", "好多了", "hǎo duō le"), S("f18", "feel", "💪", "I can do it", "できるよ", "dekiru yo", "我得嘅", "ngo5 dak1 ge3", "我能行", "wǒ néng xíng"), S("f19", "feel", "🥳", "Happy birthday!", "おたんじょうびおめでとう", "otanjoubi omedetou", "生日快樂", "saang1 jat6 faai3 lok6", "生日快乐", "shēng rì kuài lè"), S("f20", "feel", "😊", "Are you okay?", "だいじょうぶ？", "daijoubu?", "你冇事吖嘛？", "nei5 mou5 si6 aa1 maa3", "你还好吗？", "nǐ hái hǎo ma"), S("mn1", "man", "🙏", "Please", "おねがいします", "onegai shimasu", "唔該你", "m4 goi1 nei5", "请", "qǐng"), S("mn2", "man", "🤝", "Let's be friends", "おともだちになろう", "otomodachi ni narou", "做朋友好唔好？", "zou6 pang4 jau5 hou2 m4 hou2", "做朋友好吗？", "zuò péng you hǎo ma"), S("mn3", "man", "💛", "Be kind to each other", "なかよくしてね", "nakayoku shite ne", "要錫對方", "jiu3 sek3 deoi3 fong1", "要友好", "yào yǒu hǎo"), S("mn4", "man", "🆘", "Are you okay?", "だいじょうぶ？", "daijoubu?", "你冇事呀嘛？", "nei5 mou5 si6 aa3 maa3", "你没事吧？", "nǐ méi shì ba"), S("mn5", "man", "🫂", "Let's say sorry", "ごめんねしよう", "gomen ne shiyou", "講對唔住", "gong2 deoi3 m4 zyu6", "说对不起", "shuō duì bu qǐ"), S("mn6", "man", "🤲", "Can I borrow it?", "かしてくれる？", "kashite kureru?", "可唔可以借俾我？", "ho2 m4 ho2 ji5 ze3 bei2 ngo5", "可以借我吗？", "kě yǐ jiè wǒ ma"), S("mn7", "man", "🎁", "Here you go", "どうぞ", "douzo", "俾你", "bei2 nei5", "给你", "gěi nǐ"), S("mn8", "man", "🙇", "Excuse me, sorry", "しつれいします", "shitsurei shimasu", "唔好意思", "m4 hou2 ji3 si1", "不好意思", "bù hǎo yì si"), S("mn9", "man", "👏", "Good job!", "すごいね！", "sugoi ne!", "叻仔！", "lek1 zai2", "真棒！", "zhēn bàng"), S("mn10", "man", "🤗", "Don't worry", "しんぱいしないで", "shinpai shinai de", "唔使擔心", "m4 sai2 daam1 sam1", "别担心", "bié dān xīn"), S("mn11", "man", "🙋", "Can you help me?", "てつだって", "tetsudatte", "可唔可以幫我？", "ho2 m4 ho2 ji5 bong1 ngo5", "能帮我吗？", "néng bāng wǒ ma"), S("mn12", "man", "🤐", "Don't tell lies", "うそはだめ", "uso wa dame", "唔好講大話", "m4 hou2 gong2 daai6 waa6", "别说谎", "bié shuō huǎng"), S("mn13", "man", "✋", "Stop it please", "やめて", "yamete", "唔好啦", "m4 hou2 laa1", "别这样", "bié zhè yàng"), S("mn14", "man", "👍", "Let's make up", "なかなおりしよう", "nakanaori shiyou", "和好啦", "wo4 hou2 laa1", "和好吧", "hé hǎo ba"), S("mn15", "man", "💐", "You're so kind", "やさしいね", "yasashii ne", "你好好人", "nei5 hou2 hou2 jan4", "你真好", "nǐ zhēn hǎo"), S("mn16", "man", "🤝", "Let's hold hands", "てをつなごう", "te o tsunagou", "拖手", "to1 sau2", "牵手", "qiān shǒu"), S("mn17", "man", "🌟", "I'm proud of you", "えらいね", "erai ne", "你好叻", "nei5 hou2 lek1", "你真厉害", "nǐ zhēn lì hai"), S("mn18", "man", "😊", "Don't be afraid", "こわがらないで", "kowagaranai de", "唔使驚", "m4 sai2 geng1", "别怕", "bié pà"), S("mn19", "man", "🤲", "Let's share", "シェアしよう", "shea shiyou", "一齊用", "jat1 cai4 jung6", "一起用", "yì qǐ yòng"), S("mn20", "man", "🙏", "Thank you so much", "ほんとうにありがとう", "hontou ni arigatou", "多謝晒", "do1 ze6 saai3", "非常感谢", "fēi cháng gǎn xiè"), S("h1", "help", "🤲", "Help me please", "たすけて", "tasukete", "幫吓我", "bong1 haa5 ngo5", "帮帮我", "bāng bang wǒ"), S("h2", "help", "🫴", "Pick me up", "だっこして", "dakko shite", "抱我", "pou5 ngo5", "抱我", "bào wǒ"), S("h3", "help", "💧", "I want water", "おみずほしい", "omizu hoshii", "我想飲水", "ngo5 soeng2 jam2 seoi2", "我要喝水", "wǒ yào hē shuǐ"), S("h4", "help", "🚽", "I need the toilet", "トイレいきたい", "toire ikitai", "我想去廁所", "ngo5 soeng2 heoi3 ci3 so2", "我要上厕所", "wǒ yào shàng cè suǒ"), S("h5", "help", "🆘", "I can't do it", "できない", "dekinai", "我唔識做", "ngo5 m4 sik1 zou6", "我不会", "wǒ bú huì"), S("h6", "help", "👆", "Show me how", "やりかたおしえて", "yarikata oshiete", "教我點做", "gaau3 ngo5 dim2 zou6", "教我怎么做", "jiāo wǒ zěn me zuò"), S("h7", "help", "🔍", "I can't find it", "みつからない", "mitsukaranai", "搵唔到", "wan2 m4 dou2", "找不到", "zhǎo bú dào"), S("h8", "help", "🧥", "Help me put this on", "きせて", "kisete", "幫我著", "bong1 ngo5 zoek3", "帮我穿", "bāng wǒ chuān"), S("h9", "help", "🤏", "A little more please", "もうちょっと", "mou chotto", "再多啲", "zoi3 do1 di1", "再多一点", "zài duō yì diǎn"), S("h10", "help", "✋", "That's enough", "もういい", "mou ii", "夠喇", "gau3 laa3", "够了", "gòu le"), S("h11", "help", "🙋", "Wait a moment", "ちょっとまって", "chotto matte", "等一陣", "dang2 jat1 zan6", "等一下", "děng yí xià"), S("h12", "help", "🫳", "Put me down", "おろして", "oroshite", "放低我", "fong3 dai1 ngo5", "放我下来", "fàng wǒ xià lái"), S("h13", "help", "🤔", "What is this?", "これなに？", "kore nani?", "呢個係咩呀？", "ni1 go3 hai6 me1 aa3", "这是什么？", "zhè shì shén me"), S("h14", "help", "❓", "Why?", "どうして？", "doushite?", "點解呀？", "dim2 gaai2 aa3", "为什么？", "wèi shén me"), S("h15", "help", "📍", "Where is it?", "どこ？", "doko?", "喺邊度呀？", "hai2 bin1 dou6 aa3", "在哪里？", "zài nǎ li"), S("h16", "help", "⏳", "When?", "いつ？", "itsu?", "幾時呀？", "gei2 si4 aa3", "什么时候？", "shén me shí hou"), S("h17", "help", "🙆", "Like this?", "こう？", "kou?", "係咁樣呀？", "hai6 gam2 joeng2 aa3", "这样吗？", "zhè yàng ma"), S("h18", "help", "🆗", "I understand", "わかった", "wakatta", "我明喇", "ngo5 ming4 laa3", "我懂了", "wǒ dǒng le"), S("h19", "help", "🤷", "I don't understand", "わからない", "wakaranai", "我唔明", "ngo5 m4 ming4", "我不懂", "wǒ bù dǒng"), S("h20", "help", "🙏", "Can you say it again?", "もういちどいって", "mou ichido itte", "講多次", "gong2 do1 ci3", "再说一遍", "zài shuō yí biàn"), S("o1", "out", "🚗", "Let's go out", "おでかけしよう", "odekake shiyou", "出去玩", "ceot1 heoi3 waan2", "出去玩", "chū qù wán"), S("o2", "out", "🤚", "Hold my hand", "てをつないで", "te o tsunaide", "拖住我隻手", "to1 zyu6 ngo5 zek3 sau2", "牵着我的手", "qiān zhe wǒ de shǒu"), S("o3", "out", "🚦", "Wait for the green light", "あおまって", "ao matte", "等綠燈", "dang2 luk6 dang1", "等绿灯", "děng lǜ dēng"), S("o4", "out", "👀", "Look both ways", "みぎひだりみて", "migi hidari mite", "睇清楚兩邊", "tai2 cing1 co2 loeng5 bin1", "看两边", "kàn liǎng biān"), S("o5", "out", "🚙", "Be careful of cars", "くるまきをつけて", "kuruma ki o tsukete", "小心啲車", "siu2 sam1 di1 ce1", "小心车", "xiǎo xīn chē"), S("o6", "out", "🛒", "Let's go shopping", "かいものいこう", "kaimono ikou", "去買嘢", "heoi3 maai5 je5", "去买东西", "qù mǎi dōng xi"), S("o7", "out", "🤝", "Stay close to me", "そばにいて", "soba ni ite", "跟住我", "gan1 zyu6 ngo5", "跟着我", "gēn zhe wǒ"), S("o8", "out", "🚌", "Let's take the bus", "バスにのろう", "basu ni norou", "搭巴士", "daap3 baa1 si2", "坐公交", "zuò gōng jiāo"), S("o9", "out", "🌧️", "Bring an umbrella", "かさもって", "kasa motte", "記得拎遮", "gei3 dak1 ling1 ze1", "带伞", "dài sǎn"), S("o10", "out", "🧴", "Put on sunscreen", "ひやけどめぬって", "hiyakedome nutte", "搽防曬", "caa4 fong4 saai3", "抹防晒", "cā fáng shài"), S("o11", "out", "🏞️", "Let's go to the park", "こうえんいこう", "kouen ikou", "去公園", "heoi3 gung1 jyun2", "去公园", "qù gōng yuán"), S("o12", "out", "🍦", "Do you want ice cream?", "アイスたべる？", "aisu taberu?", "食唔食雪糕？", "sik6 m4 sik6 syut3 gou1", "吃冰淇淋吗？", "chī bīng qí lín ma"), S("o13", "out", "🚏", "Don't run off", "はしっていかないで", "hashitte ikanai de", "唔好周圍走", "m4 hou2 zau1 wai4 zau2", "别乱跑", "bié luàn pǎo"), S("o14", "out", "🐶", "Look, a dog!", "わんわんだ！", "wanwan da!", "你睇,有隻狗！", "nei5 tai2, jau5 zek3 gau2", "看，狗狗！", "kàn, gǒu gou"), S("o15", "out", "💦", "Wash your hands at home", "かえったらてあらって", "kaettara te aratte", "返到屋企洗手", "faan1 dou3 uk1 kei2 sai2 sau2", "回家洗手", "huí jiā xǐ shǒu"), S("o16", "out", "👟", "Tie your shoelaces", "くつひもむすんで", "kutsuhimo musunde", "綁鞋帶", "bong2 haai4 daai2", "系鞋带", "jì xié dài"), S("o17", "out", "🎒", "Don't forget your bag", "かばんわすれないで", "kaban wasurenai de", "唔好唔記得個書包", "m4 hou2 m4 gei3 dak1 go3 syu1 baau1", "别忘了书包", "bié wàng le shū bāo"), S("o18", "out", "🏠", "Let's go home", "おうちかえろう", "ouchi kaerou", "返屋企", "faan1 uk1 kei2", "回家", "huí jiā"), S("o19", "out", "😊", "Did you have fun?", "たのしかった？", "tanoshikatta?", "玩得開唔開心呀？", "waan2 dak1 hoi1 m4 hoi1 sam1 aa3", "玩得开心吗？", "wán de kāi xīn ma"), S("o20", "out", "🚸", "Hold the railing", "てすりもって", "tesuri motte", "揸住扶手", "zaa1 zyu6 fu4 sau2", "扶着栏杆", "fú zhe lán gān"), S("b1", "bed", "🛁", "Time for a bath", "おふろのじかん", "ofuro no jikan", "沖涼喇", "cung1 loeng4 laa3", "洗澡了", "xǐ zǎo le"), S("b2", "bed", "🦷", "Brush your teeth", "はみがきして", "hamigaki shite", "刷牙喇", "caat3 ngaa4 laa3", "刷牙", "shuā yá"), S("b3", "bed", "👚", "Put on your pyjamas", "パジャマきて", "pajama kite", "著睡衣", "zoek3 seoi6 ji1", "穿睡衣", "chuān shuì yī"), S("b4", "bed", "📖", "Let's read a book", "えほんよもう", "ehon yomou", "睇故事書", "tai2 gu3 si6 syu1", "读故事书", "dú gù shi shū"), S("b5", "bed", "🛏️", "Time for bed", "ねるじかんだよ", "neru jikan da yo", "瞓覺喇", "fan3 gaau3 laa3", "睡觉了", "shuì jiào le"), S("b6", "bed", "😴", "Close your eyes", "めをとじて", "me o tojite", "閉埋眼", "bai3 maai4 ngaan5", "闭上眼", "bì shàng yǎn"), S("b7", "bed", "🌙", "Good night, sweet dreams", "おやすみ、いいゆめを", "oyasumi, ii yume o", "晚安,發個好夢", "maan5 on1, faat3 go3 hou2 mung6", "晚安，做个好梦", "wǎn ān, zuò ge hǎo mèng"), S("b8", "bed", "🧸", "Where's your teddy?", "くまさんどこ？", "kumasan doko?", "你隻熊仔呢？", "nei5 zek3 hung4 zai2 ne1", "小熊在哪？", "xiǎo xióng zài nǎr"), S("b9", "bed", "🤫", "It's quiet time now", "しずかにねよう", "shizuka ni neyou", "靜靜哋瞓", "zing6 zing6 dei2 fan3", "安静睡觉", "ān jìng shuì jiào"), S("b10", "bed", "💡", "Lights off", "でんきけすよ", "denki kesu yo", "熄燈", "sik1 dang1", "关灯", "guān dēng"), S("b11", "bed", "🫂", "I'll stay with you", "そばにいるよ", "soba ni iru yo", "我陪住你", "ngo5 pui4 zyu6 nei5", "我陪着你", "wǒ péi zhe nǐ"), S("b12", "bed", "😘", "Goodnight kiss", "おやすみのキス", "oyasumi no kisu", "錫一啖", "sek3 jat1 daam6", "亲一下", "qīn yí xià"), S("b13", "bed", "🚽", "Go potty first", "さきにトイレ", "saki ni toire", "瞓前去廁所", "fan3 cin4 heoi3 ci3 so2", "先上厕所", "xiān shàng cè suǒ"), S("b14", "bed", "💧", "One last drink of water", "さいごのおみず", "saigo no omizu", "飲多啖水", "jam2 do1 daam6 seoi2", "喝点水", "hē diǎn shuǐ"), S("b15", "bed", "🥱", "Are you sleepy?", "ねむい？", "nemui?", "眼瞓喇咩？", "ngaan5 fan3 laa3 me1", "困了吗？", "kùn le ma"), S("b16", "bed", "🎶", "Let's sing a lullaby", "こもりうたうたおう", "komoriuta utaou", "唱催眠曲", "coeng3 ceoi1 min4 kuk1", "唱摇篮曲", "chàng yáo lán qǔ"), S("b17", "bed", "☀️", "See you in the morning", "あしたのあさね", "ashita no asa ne", "聽朝見", "ting1 ziu1 gin3", "明早见", "míng zǎo jiàn"), S("b18", "bed", "🤗", "I love you so much", "だいすきだよ", "daisuki da yo", "我好錫你", "ngo5 hou2 sek3 nei5", "我很爱你", "wǒ hěn ài nǐ"), S("b19", "bed", "😌", "Sleep tight", "ぐっすりねてね", "gussuri nete ne", "瞓得好啲", "fan3 dak1 hou2 di1", "睡个好觉", "shuì ge hǎo jiào"), S("b20", "bed", "🌟", "Today was a good day", "きょうもいいひだったね", "kyou mo ii hi datta ne", "今日好開心", "gam1 jat6 hou2 hoi1 sam1", "今天很开心", "jīn tiān hěn kāi xīn"), S("us1", "us", "🇬🇧", "ココ伯母 lives in England", "ココ伯母さんはイギリスに住んでるよ", "Koko ii-maa wa Igirisu ni sunderu yo", "ココ伯母喺英國住㗎", "Koko ji4 maa1 hai2 jing1 gwok3 zyu6 gaa3", "ココ伯母住在英国", "Koko yímā zhù zài Yīngguó"), S("us2", "us", "👵", "おばあちゃん lives in Osaka", "おばあちゃんは大阪に住んでるよ", "obaachan wa Oosaka ni sunderu yo", "おばあちゃん喺大阪住㗎", "obaachan hai2 daai6 baan2 zyu6 gaa3", "おばあちゃん住在大阪", "obaachan zhù zài Dàbǎn"), S("us3", "us", "🐙", "オッキー is crying", "オッキーが泣いてるよ", "オッキー ga naiteru yo", "オッキー喊緊呀", "オッキー haam3 gan2 aa3", "オッキー在哭哦", "オッキー zài kū o"), S("us4", "us", "🐘", "ゾゾ says it wants to hear a song", "ゾゾがお歌聴きたいなあって言ってるよ", "ゾゾ ga outa kikitai naa tte itteru yo", "ゾゾ話佢想聽歌呀", "ゾゾ waa6 keoi5 soeng2 teng1 go1 aa3", "ゾゾ说它想听歌", "ゾゾ shuō tā xiǎng tīng gē"), S("us5", "us", "🇭🇰", "細舅父 says you can visit Hong Kong anytime", "細舅父がいつでも香港にあそびにおいでって言ってるよ", "Sai-Kau-Fu ga itsudemo Honkon ni asobi ni oide tte itteru yo", "細舅父話你幾時都可以嚟香港玩呀", "sai3 kau5 fu2 waa6 nei5 gei2 si4 dou1 ho2 ji5 lei4 hoeng1 gong2 waan2 aa3", "細舅父说你随时都可以来香港玩", "sai3 kau5 fu2 shuō nǐ suíshí dōu kěyǐ lái Xiānggǎng wán"), S("us6", "us", "🦈", "Baby Shark wants to do Mat Session", "Baby SharkがMat Sessionをやりたいって言ってるよ", "Baby Shark ga Mat Session o yaritai tte itteru yo", "Baby Shark想做Mat Session呀", "Baby Shark soeng2 zou6 Mat Session aa3", "Baby Shark想做Mat Session", "Baby Shark xiǎng zuò Mat Session"), S("us7", "us", "🚽", "ゾゾ says it needs the toilet", "ゾゾがトイレに行きたいよって言ってるよ", "ゾゾ ga toire ni ikitai yo tte itteru yo", "ゾゾ話佢想去廁所呀", "ゾゾ waa6 keoi5 soeng2 heoi3 ci3 so2 aa3", "ゾゾ说它想上厕所", "ゾゾ shuō tā xiǎng shàng cèsuǒ"), S("us8", "us", "🎹", "Shall we play the piano together?", "一緒にピアノで遊ぼうか", "issho ni piano de asobou ka", "一齊彈鋼琴好唔好呀？", "jat1 cai4 taan4 gong3 kam4 hou2 m4 hou2 aa3", "一起弹钢琴好吗？", "yìqǐ tán gāngqín hǎo ma"), S("us9", "us", "🏃", "Nicolo runs really fast", "ニコロは走るの速いね", "Nicolo wa hashiru no hayai ne", "Nicolo跑得好快呀", "Nicolo paau2 dak1 hou2 faai3 aa3", "Nicolo跑得很快", "Nicolo pǎo de hěn kuài"), S("us10", "us", "🇹🇼", "Krystal is from Taiwan", "Krystalは台湾出身だよ", "Krystal wa Taiwan shusshin da yo", "Krystal係台灣嚟㗎", "Krystal hai6 toi4 waan1 lei4 gaa3", "Krystal是台湾人", "Krystal shì Táiwān rén"), S("us11", "us", "💕", "Mummy is so kind", "お母さんはすごくやさしいね", "okaasan wa sugoku yasashii ne", "媽媽好溫柔呀", "maa1 maa1 hou2 wan1 jau4 aa3", "妈妈很温柔", "māma hěn wēnróu"), S("us12", "us", "😆", "あやの is so funny", "あやのはめっちゃ面白い", "Ayano wa meccha omoshiroi", "あやの好搞笑呀", "Ayano hou2 gaau2 siu3 aa3", "あやの很搞笑", "Ayano hěn gǎoxiào"), S("us13", "us", "💗", "あやの, thank you for being born", "あやの、生まれてきてくれてありがとう", "Ayano, umarete kite kurete arigatou", "あやの,多謝你嚟到呢個世界", "Ayano, do1 ze6 nei5 lei4 dou3 ni1 go3 sai3 gaai3", "あやの，谢谢你来到这个世界", "Ayano, xièxie nǐ lái dào zhège shìjiè"), S("us14", "us", "👨", "Daddy was born in Osaka", "お父さんは大阪で生まれました", "otousan wa Oosaka de umaremashita", "爸爸喺大阪出世㗎", "baa4 baa1 hai2 daai6 baan2 ceot1 sai3 gaa3", "爸爸在大阪出生", "bàba zài Dàbǎn chūshēng"), S("us15", "us", "🍢", "Shall we make takoyaki together today?", "今日一緒にたこ焼きつくろうか", "kyou issho ni takoyaki tsukurou ka", "今日一齊整章魚燒好唔好呀？", "gam1 jat6 jat1 cai4 zing2 zoeng1 jyu4 siu1 hou2 m4 hou2 aa3", "今天一起做章鱼烧好吗？", "jīntiān yìqǐ zuò zhāngyúshāo hǎo ma"), S("us16", "us", "🍫", "あやの loves licking chocolate", "あやのはチョコレートをペロペロなめるのが好きです", "Ayano wa chokoreeto o peropero nameru no ga suki desu", "あやの鍾意舐朱古力呀", "Ayano zung1 ji3 lem2 zyu1 gu1 lik1 aa3", "あやの喜欢舔巧克力", "Ayano xǐhuan tiǎn qiǎokèlì"), S("us17", "us", "🎁", "Ayano, you are the best gift I've ever received!", "あやの、あなたは私がもらった最高の贈り物だよ！", "Ayano, anata wa watashi ga moratta saikou no okurimono da yo", "あやの,你係我收過最好嘅禮物呀！", "Ayano, nei5 hai6 ngo5 sau1 gwo3 zeoi3 hou2 ge3 lai5 mat6 aa3", "あやの，你是我收到过最好的礼物！", "Ayano, nǐ shì wǒ shōu dào guò zuì hǎo de lǐwù")];
 const CATS = [{
   id: "all",
   ja: "ぜんぶ",
@@ -419,6 +418,12 @@ const CATS = [{
   en: "Bedtime",
   emoji: "🌙",
   color: "#6366F1"
+}, {
+  id: "us",
+  ja: "うちのこと",
+  en: "Our life",
+  emoji: "💛",
+  color: "#E11D48"
 }];
 const TONES = [{
   n: "1",
@@ -504,6 +509,30 @@ function pickVoice(voices, lang) {
   const base = lang.split("-")[0];
   return voices.find(x => x.lang.toLowerCase().startsWith(base)) || null;
 }
+
+// Proper nouns get spelled phonetically per voice so engines don't skip
+// kana/hiragana and so names sound the way the family says them.
+// IMPORTANT: use Latin spellings only — mixing CJK here can mute voices
+// on devices that lack that language pack.
+const SPEAK_FIX = {
+  "zh-HK": [
+  // Cantonese voice
+  ["ゾゾ", "左左"], ["オッキー", "柯奇"], ["あやの", "呀也努"], ["ココ伯母", "Coco姨媽"], ["ココ", "Coco"], ["細舅父", "細舅父"], ["Baby Shark", "啤啤鯊"], ["Mat Session", "Mat Session"], ["Nicolo", "你哥囉"], ["Krystal", "卡利士多"], ["おばあちゃん", "婆婆"]],
+  "zh-CN": [
+  // Mandarin voice
+  ["ゾゾ", "佐佐"], ["オッキー", "欧奇"], ["あやの", "阿雅诺"], ["ココ伯母", "Coco阿姨"], ["ココ", "Coco"], ["細舅父", "细舅父"], ["Nicolo", "尼可罗"], ["Krystal", "克里斯逃"], ["おばあちゃん", "奶奶"]],
+  "ja-JP": [
+  // Japanese voice reads kana natively; only fix names it can't read
+  ["細舅父", "さいかおふー"], ["ココ伯母さん", "ココイーマー"], ["ココ伯母", "ココイーマー"]],
+  "en-US": [["ゾゾ", "Zozo"], ["オッキー", "Occy"], ["あやの", "Ayano"], ["ココ伯母", "Auntie Koko"], ["細舅父", "Sai-Kau-Fu"], ["おばあちゃん", "Grandma"]]
+};
+function speakText(text, lang) {
+  let t = text;
+  (SPEAK_FIX[lang] || []).forEach(([a, b]) => {
+    t = t.split(a).join(b);
+  });
+  return t;
+}
 function App() {
   const [mode, setMode] = useState("home");
   const [screen, setScreen] = useState("menu");
@@ -521,8 +550,15 @@ function App() {
   const [prog, setProg] = useState({});
   const [showTones, setShowTones] = useState(false);
   const [speakingKey, setSpeakingKey] = useState(null);
+  const [speakMsg, setSpeakMsg] = useState("");
   const voices = useVoices();
   const hasCanto = voices.some(v => /zh.HK|yue|cantonese|sin.?ji/i.test(v.lang + v.name));
+  const voiceAvail = {
+    yue: voices.some(v => /zh.HK|yue|cantonese|sin.?ji/i.test(v.lang + v.name)),
+    zh: voices.some(v => /zh.CN|zh.Hans|mandarin|cmn/i.test(v.lang + v.name) || (v.lang || "").toLowerCase() === "zh"),
+    ja: voices.some(v => (v.lang || "").toLowerCase().startsWith("ja")),
+    en: voices.some(v => (v.lang || "").toLowerCase().startsWith("en"))
+  };
   useEffect(() => {
     try {
       const r = localStorage.getItem("ayano_v2");
@@ -543,18 +579,65 @@ function App() {
     } catch (e) {}
   };
   const speak = (text, lang, key) => {
-    if (!window.speechSynthesis) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = lang;
-    u.rate = 0.8;
-    u.pitch = 1.0;
-    const v = pickVoice(voices, lang);
-    if (v) u.voice = v;
-    u.onend = () => setSpeakingKey(null);
-    u.onerror = () => setSpeakingKey(null);
-    setSpeakingKey(key);
-    window.speechSynthesis.speak(u);
+    const synth = window.speechSynthesis;
+    if (!synth) {
+      setSpeakMsg("この端末は音声に対応していません / No speech support");
+      return;
+    }
+    const go = () => {
+      synth.cancel();
+      const u = new SpeechSynthesisUtterance(speakText(text, lang));
+      u.lang = lang;
+      u.rate = 0.8;
+      u.pitch = 1.0;
+      const vs = synth.getVoices();
+      const v = pickVoice(vs, lang);
+      const base = lang.split("-")[0];
+      // Only attach a voice if it matches the target language family.
+      // Attaching a mismatched voice can produce silence on some engines.
+      if (v && (v.lang || "").toLowerCase().startsWith(base)) u.voice = v;
+      u.onend = () => setSpeakingKey(null);
+      u.onerror = () => {
+        setSpeakingKey(null);
+        setSpeakMsg("音が出ないときは端末の音量(メディア)と音声データをご確認ください / If silent, check media volume & installed voices");
+      };
+      const hasFamily = vs.some(x => (x.lang || "").toLowerCase().startsWith(base));
+      if (!hasFamily) {
+        const names = {
+          "zh-HK": "広東語 Cantonese",
+          "zh-CN": "普通話 Mandarin",
+          "ja-JP": "日本語",
+          "en-US": "English"
+        };
+        setSpeakMsg("⚠️ " + (names[lang] || lang) + "の音声がこの端末に入っていません。端末の設定で追加してください / This voice isn't installed on this device");
+      } else {
+        setSpeakMsg("");
+      }
+      setSpeakingKey(key);
+      try {
+        synth.speak(u);
+      } catch (e) {
+        setSpeakingKey(null);
+      }
+      // Chrome/Android sometimes pauses the queue — nudge it.
+      setTimeout(() => {
+        try {
+          synth.resume();
+        } catch (e) {}
+      }, 120);
+    };
+    if (synth.getVoices().length === 0) {
+      // voices not ready yet (common on Android) — load then speak
+      try {
+        synth.onvoiceschanged = () => {
+          synth.onvoiceschanged = null;
+          go();
+        };
+      } catch (e) {}
+      setTimeout(go, 300);
+    } else {
+      go();
+    }
   };
   const startStudy = c => {
     const v = shuffle(getCat(c));
@@ -636,6 +719,31 @@ function App() {
       fontSize: size * 0.5
     }
   }, "🔊"));
+  useEffect(() => {
+    if (!speakMsg) return;
+    const t = setTimeout(() => setSpeakMsg(""), 5000);
+    return () => clearTimeout(t);
+  }, [speakMsg]);
+  const Toast = speakMsg ? /*#__PURE__*/React.createElement("div", {
+    onClick: () => setSpeakMsg(""),
+    style: {
+      position: "fixed",
+      left: "50%",
+      bottom: "18px",
+      transform: "translateX(-50%)",
+      zIndex: 9999,
+      maxWidth: "90%",
+      background: "#1F1530",
+      border: "1px solid rgba(245,158,11,.4)",
+      color: "#FCD34D",
+      padding: "10px 16px",
+      borderRadius: "12px",
+      fontSize: "12px",
+      lineHeight: 1.5,
+      boxShadow: "0 8px 30px rgba(0,0,0,.5)",
+      cursor: "pointer"
+    }
+  }, speakMsg) : null;
   if (mode === "home") return /*#__PURE__*/React.createElement("div", {
     style: {
       minHeight: "100vh",
@@ -646,7 +754,7 @@ function App() {
       justifyContent: "center",
       padding: "24px"
     }
-  }, /*#__PURE__*/React.createElement("style", null, CSS), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("style", null, CSS), Toast, /*#__PURE__*/React.createElement("div", {
     style: {
       textAlign: "center",
       marginBottom: "44px"
@@ -800,7 +908,7 @@ function App() {
       overflowY: "auto",
       paddingBottom: "40px"
     }
-  }, /*#__PURE__*/React.createElement("style", null, CSS), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("style", null, CSS), Toast, /*#__PURE__*/React.createElement("div", {
     style: {
       padding: "16px 20px",
       display: "flex",
@@ -853,18 +961,47 @@ function App() {
       fontSize: "13px",
       marginTop: "4px"
     }
-  }, "幼稚園と家庭で使う表現 · 広東語が主役")), !hasCanto && window.speechSynthesis && /*#__PURE__*/React.createElement("div", {
+  }, "幼稚園と家庭で使う表現 · 広東語が主役")), window.speechSynthesis && /*#__PURE__*/React.createElement("div", {
     style: {
-      background: "rgba(245,158,11,.08)",
-      border: "1px solid rgba(245,158,11,.25)",
+      background: "rgba(255,255,255,.04)",
+      border: "1px solid rgba(255,255,255,.08)",
       borderRadius: "12px",
       padding: "12px 14px",
-      marginBottom: "18px",
-      color: "#FCD34D",
-      fontSize: "12px",
-      lineHeight: 1.5
+      marginBottom: "18px"
     }
-  }, "⚠️ この端末には広東語の音声が見つかりません。", /*#__PURE__*/React.createElement("strong", null, "iPhone・iPad・Mac"), "には広東語音声（Sin-ji）が入っているのでおすすめです。北京語・英語・日本語の音声は使えます。"), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: "#8B85B0",
+      fontSize: "11px",
+      fontWeight: 700,
+      letterSpacing: "1px",
+      marginBottom: "8px"
+    }
+  }, "🔊 この端末の音声 / Voices on this device"), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: "flex",
+      gap: "6px",
+      flexWrap: "wrap"
+    }
+  }, [["廣東話", voiceAvail.yue], ["普通話", voiceAvail.zh], ["English", voiceAvail.en], ["日本語", voiceAvail.ja]].map(([l, ok], i) => /*#__PURE__*/React.createElement("span", {
+    key: i,
+    style: {
+      fontSize: "12px",
+      padding: "3px 10px",
+      borderRadius: "999px",
+      fontWeight: 700,
+      background: ok ? "rgba(52,211,153,.12)" : "rgba(245,158,11,.12)",
+      color: ok ? "#34D399" : "#FCD34D",
+      border: "1px solid " + (ok ? "rgba(52,211,153,.3)" : "rgba(245,158,11,.3)")
+    }
+  }, ok ? "✓" : "✗", " ", l))), !voiceAvail.yue && /*#__PURE__*/React.createElement("div", {
+    style: {
+      color: "#FCD34D",
+      fontSize: "11px",
+      lineHeight: 1.5,
+      marginTop: "10px"
+    }
+  }, "⚠️ 広東語の音声が未インストールです。Androidは「設定 → 音声入力と出力 → テキスト読み上げ → Google → 音声データのインストール → 広東語」で追加できます。", /*#__PURE__*/React.createElement("strong", null, "iPhone・Mac"), "なら最初から入っています。")), /*#__PURE__*/React.createElement("div", {
     style: {
       color: "#8B85B0",
       fontSize: "11px",
@@ -1070,7 +1207,7 @@ function App() {
       display: "flex",
       flexDirection: "column"
     }
-  }, /*#__PURE__*/React.createElement("style", null, CSS), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("style", null, CSS), Toast, /*#__PURE__*/React.createElement("div", {
     style: {
       padding: "16px 20px",
       display: "flex",
@@ -1160,10 +1297,10 @@ function App() {
   }, /*#__PURE__*/React.createElement("div", {
     style: {
       color: "#fff",
-      fontSize: "24px",
+      fontSize: card.ja.length > 18 ? "16px" : card.ja.length > 10 ? "19px" : "24px",
       fontWeight: 800,
       textAlign: "center",
-      lineHeight: 1.3
+      lineHeight: 1.35
     }
   }, card.ja), /*#__PURE__*/React.createElement(Spk, {
     text: card.ja,
@@ -1231,8 +1368,8 @@ function App() {
     style: {
       color: "#F59E0B",
       fontWeight: 900,
-      fontSize: card.yue.length > 6 ? "30px" : "40px",
-      lineHeight: 1.2
+      fontSize: card.yue.length > 12 ? "22px" : card.yue.length > 6 ? "30px" : "40px",
+      lineHeight: 1.25
     }
   }, card.yue), /*#__PURE__*/React.createElement("div", {
     style: {
@@ -1245,9 +1382,10 @@ function App() {
   }, /*#__PURE__*/React.createElement("div", {
     style: {
       color: "#FCD34D",
-      fontSize: card.yueR.length > 22 ? "13px" : "16px",
+      fontSize: card.yueR.length > 40 ? "10px" : card.yueR.length > 22 ? "13px" : "16px",
       fontFamily: "monospace",
-      fontWeight: 700
+      fontWeight: 700,
+      lineHeight: 1.4
     }
   }, card.yueR), /*#__PURE__*/React.createElement(Spk, {
     text: card.yue,
@@ -1355,7 +1493,7 @@ function App() {
           justifyContent: "center",
           padding: "24px"
         }
-      }, /*#__PURE__*/React.createElement("style", null, CSS), /*#__PURE__*/React.createElement("div", {
+      }, /*#__PURE__*/React.createElement("style", null, CSS), Toast, /*#__PURE__*/React.createElement("div", {
         style: {
           textAlign: "center",
           maxWidth: "360px",
@@ -1429,7 +1567,7 @@ function App() {
         display: "flex",
         flexDirection: "column"
       }
-    }, /*#__PURE__*/React.createElement("style", null, CSS), /*#__PURE__*/React.createElement("div", {
+    }, /*#__PURE__*/React.createElement("style", null, CSS), Toast, /*#__PURE__*/React.createElement("div", {
       style: {
         padding: "16px 20px",
         display: "flex",
@@ -1506,7 +1644,8 @@ function App() {
       style: {
         color: "#F59E0B",
         fontWeight: 900,
-        fontSize: quiz.word.yue.length > 6 ? "28px" : "36px"
+        fontSize: quiz.word.yue.length > 12 ? "20px" : quiz.word.yue.length > 6 ? "28px" : "36px",
+        lineHeight: 1.25
       }
     }, quiz.word.yue), /*#__PURE__*/React.createElement("div", {
       style: {
@@ -1589,14 +1728,14 @@ function App() {
       }, "❌"));
     }))));
   }
-  const KP = ["#FF6B6B", "#FF9F43", "#FFD93D", "#6BCB77", "#4D96FF", "#C77DFF", "#FF6B9D", "#4ECDC4", "#A78BFA", "#F472B6", "#FB923C"];
+  const KP = ["#FF6B6B", "#FF9F43", "#FFD93D", "#6BCB77", "#4D96FF", "#C77DFF", "#FF6B9D", "#4ECDC4", "#A78BFA", "#F472B6", "#FB923C", "#E11D48"];
   if (mode === "kid" && screen === "menu") return /*#__PURE__*/React.createElement("div", {
     style: {
       minHeight: "100vh",
       background: "#FFFBF0",
       paddingBottom: "32px"
     }
-  }, /*#__PURE__*/React.createElement("style", null, CSS), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("style", null, CSS), Toast, /*#__PURE__*/React.createElement("div", {
     style: {
       padding: "16px 20px"
     }
@@ -1726,7 +1865,7 @@ function App() {
         display: "flex",
         flexDirection: "column"
       }
-    }, /*#__PURE__*/React.createElement("style", null, CSS), /*#__PURE__*/React.createElement("div", {
+    }, /*#__PURE__*/React.createElement("style", null, CSS), Toast, /*#__PURE__*/React.createElement("div", {
       style: {
         padding: "14px 16px",
         display: "flex",
@@ -1808,10 +1947,11 @@ function App() {
     }, card.emoji), /*#__PURE__*/React.createElement("div", {
       style: {
         color: "#333",
-        fontSize: card.yue.length > 6 ? "26px" : "34px",
+        fontSize: card.yue.length > 12 ? "20px" : card.yue.length > 6 ? "26px" : "34px",
         fontWeight: 900,
         marginTop: "12px",
-        textAlign: "center"
+        textAlign: "center",
+        lineHeight: 1.25
       }
     }, card.yue), /*#__PURE__*/React.createElement("div", {
       style: {
@@ -1851,11 +1991,12 @@ function App() {
       className: "round",
       style: {
         color: "#fff",
-        fontSize: card.ja.length > 10 ? "24px" : "32px",
+        fontSize: card.ja.length > 18 ? "17px" : card.ja.length > 10 ? "22px" : "32px",
         fontWeight: 800,
         marginTop: "12px",
         textAlign: "center",
-        textShadow: "0 2px 8px rgba(0,0,0,.2)"
+        textShadow: "0 2px 8px rgba(0,0,0,.2)",
+        lineHeight: 1.35
       }
     }, card.ja), /*#__PURE__*/React.createElement(Spk, {
       text: card.ja,
@@ -1949,7 +2090,7 @@ function App() {
           padding: "24px",
           textAlign: "center"
         }
-      }, /*#__PURE__*/React.createElement("style", null, CSS), /*#__PURE__*/React.createElement("div", {
+      }, /*#__PURE__*/React.createElement("style", null, CSS), Toast, /*#__PURE__*/React.createElement("div", {
         className: "pop",
         style: {
           fontSize: "96px"
@@ -2030,7 +2171,7 @@ function App() {
         display: "flex",
         flexDirection: "column"
       }
-    }, /*#__PURE__*/React.createElement("style", null, CSS), /*#__PURE__*/React.createElement("div", {
+    }, /*#__PURE__*/React.createElement("style", null, CSS), Toast, /*#__PURE__*/React.createElement("div", {
       style: {
         padding: "14px 16px",
         display: "flex",
@@ -2088,9 +2229,10 @@ function App() {
     }, quiz.word.emoji), /*#__PURE__*/React.createElement("div", {
       style: {
         color: "#333",
-        fontSize: quiz.word.yue.length > 6 ? "24px" : "30px",
+        fontSize: quiz.word.yue.length > 12 ? "19px" : quiz.word.yue.length > 6 ? "24px" : "30px",
         fontWeight: 900,
-        marginTop: "8px"
+        marginTop: "8px",
+        lineHeight: 1.25
       }
     }, quiz.word.yue), /*#__PURE__*/React.createElement("div", {
       style: {
